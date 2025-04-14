@@ -1,5 +1,8 @@
-# Copy the deploy.yml to your local and save it with name deploy.yml
+## Sample App deployment
 
+Copy the `deploy.yml` to your local and save it with the name `deploy.yml`.
+
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
