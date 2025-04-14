@@ -38,10 +38,11 @@ spec:
         kubernetes.io/os: linux
 
 # Deploy the app
-```yaml
+
 kubectl apply -f deploy.yaml
 
-# Copy the below file as service.yml
+# Copy the below file as `service.yml`
+
 ```yaml
 apiVersion: v1
 kind: Service
@@ -58,5 +59,5 @@ spec:
       targetPort: 80
 
 # Deploy the service
-```yaml
+
 kubectl apply -f service.yaml
