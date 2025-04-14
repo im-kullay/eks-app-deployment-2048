@@ -36,12 +36,12 @@ spec:
         imagePullPolicy: IfNotPresent
       nodeSelector:
         kubernetes.io/os: linux
-
+```
 ## Deploy the app
 
 ```bash
 kubectl apply -f deploy.yaml
-
+```
 ## Copy the below file as service.yml
 
 ```yaml
