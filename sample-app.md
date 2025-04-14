@@ -1,5 +1,3 @@
-## Sample App deployment
-
 Copy the `deploy.yml` to your local and save it with the name `deploy.yml`.
 
 ```yaml
@@ -40,11 +38,11 @@ spec:
         kubernetes.io/os: linux
 
 # Deploy the app
-
+```yaml
 kubectl apply -f deploy.yaml
 
 # Copy the below file as service.yml
-
+```yaml
 apiVersion: v1
 kind: Service
 metadata:
@@ -60,5 +58,5 @@ spec:
       targetPort: 80
 
 # Deploy the service
-
+```yaml
 kubectl apply -f service.yaml
