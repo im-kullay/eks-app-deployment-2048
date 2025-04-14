@@ -37,8 +37,7 @@ spec:
       nodeSelector:
         kubernetes.io/os: linux
 
-# Deploy the app
-
+## Deploy the app
 ```bash
 kubectl apply -f deploy.yaml
 
