@@ -1,4 +1,4 @@
-Copy the `deploy.yml` to your local and save it with the name `deploy.yml`.
+## Copy the `deploy.yml` to your local and save it with the name `deploy.yml`.
 
 ```yaml
 apiVersion: apps/v1
@@ -41,7 +41,6 @@ spec:
 
 ```bash
 kubectl apply -f deploy.yaml
-```
 
 ## Copy the below file as service.yml
 
