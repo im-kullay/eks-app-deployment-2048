@@ -37,14 +37,13 @@ spec:
       nodeSelector:
         kubernetes.io/os: linux
 
-`## Deploy the app`
+## Deploy the app
 
 ```bash
 kubectl apply -f deploy.yaml
 
-`## Copy the below file as service.yml`
+## Copy the below file as service.yml
 
-```yaml
 apiVersion: v1
 kind: Service
 metadata:
@@ -59,9 +58,6 @@ spec:
       port: 80
       targetPort: 80
 
----
+## Deploy the service
 
-`## Deploy the service`
-
-```bash
 kubectl apply -f service.yaml
