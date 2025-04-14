@@ -39,11 +39,11 @@ spec:
 
 # Deploy the app
 
+```bash
 kubectl apply -f deploy.yaml
 
 # Copy the below file as `service.yml`
 
-```yaml
 apiVersion: v1
 kind: Service
 metadata:
